@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212121;
+    font-family: 'Poppins';
+    color: #ffff;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    z-index: 9999;
+    background-color: #212121;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.2rem;
+    border-radius: 4px;
+}
+.navbar ul li a {
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 207, 96);
+    transition: 0.5s;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48,
+  }
+
+  #getstarted {
+      border: 1px solid #ffff;
+      transition: 0.5s;
+  }
+
+  #getstarted:hover {
+    border: 1px solid rgb(255, 207, 96);
+    transition: 0.5s;
+  }
+
+  .header {
+      padding-top: 5%;
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      height: 400px;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .header h1 {
+      font-size: 4rem;
+      line-height: 5rem;
+  }
+
+  #online {
+      text-decoration: underline 5px rgb(73, 73, 244);
+      text-underline-offset: 1.1rem;
+  }
+
+  .header ul {
+      list-style: none;
+      align-self: center;
+      margin-right: 21%;
+      margin-top: 1.5%;
+      display: flex;
+  }
+
+  .header ul li {
+      padding-right: 1.2rem;
+      padding-left: 1.2rem;
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+  }
+
+  .header ul li a {
+      text-decoration: none;
+      font-weight: 300;
+  }
+
+  #one {
+      padding: 10px;
+      border-radius: 2px;
+      color: #ffff;
+      background-color: #385AD3;
+      transition: 0.5s;
+  }
+
+#one:hover {
+    transition: 0.5s;
+    background: #2147d0;
+}
+
+#two {
+    padding: 10px;
+    border-radius: 2px;
+    color: #385AD3;
+    background-color: #ffff;
+    transition: 0.5s;
+}
+  
+#two:hover {
+    transition: 0.5s;
+    background: rgb(178, 174, 174);
+}
